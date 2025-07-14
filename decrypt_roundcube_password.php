@@ -11,9 +11,9 @@ function decrypt_roundcube_password($encrypted_base64, $des_key) {
     return $decrypted;
 }
 
-// Example usage:
-$encrypted = 'encrypted string';  // Replace with actual encrypted string
-$des_key = 'des_key';  // Replace with your des_key from Roundcube config
+// decryption
+$encrypted = 'encrypted string';
+$des_key = 'des_key';
 $plain = decrypt_roundcube_password($encrypted, $des_key);
 echo "Decrypted password: $plain\n";
 
