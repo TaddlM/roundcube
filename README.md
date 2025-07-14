@@ -34,6 +34,10 @@ cd roundcube
 - Open the PHP script `decrypt_roundcube_password.php`.
 - Replace `encrypted string` with your encrypted password on line 15.
 - Replace `des_key` with your `des_key` from Roundcube config that was used to encrypt the password.
+- Execute the script
+```shell
+php decrypt_roundcube_password.php
+``
 
 # How this script works
 
