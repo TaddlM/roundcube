@@ -37,7 +37,7 @@ cd roundcube
 - Execute the script
 ```shell
 php decrypt_roundcube_password.php
-``
+``` 
 
 # How this script works
 
